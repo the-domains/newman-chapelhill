@@ -1,8 +1,18 @@
-layout_spectrum: 0.1909522
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 typography_spectrum: 0.02949545
 color:
   saturation: 0.8528683
-  lightness: 0.7927998
   brandStrength: 0.697193
   rhythmicContrast: 0.02569604
   brandColors:
@@ -11,4 +21,6 @@ color:
     - '#B3BFB8'
     - '#F0F7F4'
     - '#A2E3C4'
+  lightness: 0.7927998
+layout_spectrum: 1
 name: Newman ChapelHill
